@@ -19,13 +19,35 @@ During my experience as a Helpdesk Analyst with email admin roles and tasks in *
 
 ## Installation
 
-You will need a **VirusTotal API key**. VirusTotal offers a free API key with a rate limit of **4 lookups per minute** and **500 queries per day**.  
+Step 1: You will need a **VirusTotal API key**. VirusTotal offers a free API key with a rate limit of **4 lookups per minute** and **500 queries per day**.  
 
 Save your API key as an **environment variable** on your platform:
 
 ```bash
 export VT_API_KEY="your_api_key_here"  # macOS/Linux
 setx VT_API_KEY "your_api_key_here"    # Windows PowerShell
+```
+Step 2: Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/hash-integrity-checker.git
+cd hash-integrity-checker
+```
+Step 3: Set your VirusTotal API key (temporary or permanent):
+- Temporary (Current Session Only)
+  ```bash
+  export VT_API_KEY="your_api_key_here"   # Linux/macOS
+  setx VT_API_KEY "your_api_key_here"    # Windows PowerShell
+    ```
+- Permanent (add to ~/.bashrc or ~/.zshrc file using nano/vim #Linux/MacOS
+  ```bash
+  export VT_API_KEY="your_api_key_here"
+  ```
+Step 4: Reload
+```bash
+source ~/.bashrc
+# or
+source ~/.zshrc
 ```
 
 ## Usage
