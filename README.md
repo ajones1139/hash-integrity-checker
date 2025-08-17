@@ -1,9 +1,9 @@
-# hash-integrity-checker
+## hash-integrity-checker
 
 **Email and File Security Made Simple**
 
-Email security is a critical vector in cybersecurity, with millions of users encountering phishing attempts and scams every day.  
-`hash-integrity-checker` is a minimal, free tool that leverages VirusTotal’s free API to quickly validate whether files, directories, URLs, attachments, or `.eml` files are potentially malicious or tampered with.
+During my experience as a Helpdesk Analyst with email admin roles and tasks in **MIMECAST email security**, I realized that email security is an essential safeguard for all industries.  
+`hash-integrity-checker` is a minimal, free tool that leverages VirusTotal’s API to quickly validate whether files, directories, URLs, attachments, or `.eml` files are potentially malicious or tampered with.
 
 ---
 
